@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+button.delete {
+  border-radius: 4px;
+  margin-left: 20px;
+  font-size: 14px;
+  text-align: center;
+  width: 25px;
+  height: 20px;
+  background-color: #e76f51;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+li:not(:first-child) {
+  margin-top: 10px;
+}
